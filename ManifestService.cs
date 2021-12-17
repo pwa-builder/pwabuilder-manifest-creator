@@ -15,8 +15,7 @@ namespace Microsoft.PWABuilder.ManifestCreator
         private readonly Uri siteUri;
         private readonly ILogger logger;
 
-        // NOTE: user agent should include curl/7.64.1, otherwise some sites like Facebook Workplace will block us
-        private const string userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59 curl/7.64.1";
+        private const string userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57 PWABuilderHttpAgent";
         private static readonly HttpClient http = CreateHttpClient();
 
         public ManifestService(Uri url, ILogger logger)

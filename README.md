@@ -1,5 +1,8 @@
 Please use our [main repository for any issues/bugs/features suggestion](https://github.com/pwa-builder/PWABuilder/issues/new/choose).
 
+# Archived
+This repo has been archived, as the manifest creation code has been moved to our [main repo](https://github.com/pwa-builder/PWABuilder).
+
 # pwabuilder-manifest-creator
 Scrapes a web page and creates a web manifest from metadata within the page
 
